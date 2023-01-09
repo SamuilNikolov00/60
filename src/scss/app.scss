@@ -27,3 +27,33 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.navbar-burger{
+  top:50px;
+  background-color: red;
+}
+.navbar-menu{
+  background-color: green;
+}
+
+
+@media screen and (max-width: 600px){
+
+  .navbar-burger{
+    visibility: visible;
+  }
+  .navbar-menu{
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 600px){
+
+  .navbar-burger{
+    visibility: hidden;
+  }
+  .navbar-menu{
+    visibility: visible;
+  }
+}
+
